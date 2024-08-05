@@ -1,0 +1,141 @@
+/* src/main/resources/static/css/style.css */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+.registration-form {
+	background-color: #ffffff;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 30px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.registration-form h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.registration-form label {
+	display: block;
+	margin: 10px 0 5px;
+}
+
+.registration-form input,
+.registration-form textarea,
+.registration-form select {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.registration-form input[type="radio"] {
+	width: auto;
+	margin-right: 5px;
+}
+
+.registration-form input[type="checkbox"] {
+	width: auto;
+	margin-right: 10px;
+}
+
+.registration-form input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.registration-form input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+
+
+/* src/main/resources/static/css/style.css */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+.profile-form {
+	background-color: #ffffff;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 30px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.profile-form h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.profile-form label {
+	display: block;
+	margin: 10px 0 5px;
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form input[type="date"],
+.profile-form select {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.profile-form input[type="radio"] {
+	width: auto;
+	margin-right: 5px;
+}
+
+.profile-form button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.profile-form button:hover {
+	background-color: #45a049;
+}
+
+.profile-form a {
+	display: block;
+	text-align: center;
+	color: #ff0000;
+	text-decoration: none;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.profile-form a:hover {
+	text-decoration: underline;
+}
+
+.profile-form p {
+	color: #ff0000;
+	text-align: center;
+}
